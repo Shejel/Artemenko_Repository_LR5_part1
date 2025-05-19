@@ -11,7 +11,6 @@ void testUserInput_Empty() {
     ASSERT_EQUAL(expected, actual);
 }
 
-
 void testUserInput_Letter() {
     string str = "abc";
     bool expected = false;
@@ -51,6 +50,5 @@ int main() {
 
     ide_listener<> listener;
     makeRunner(listener)(s, "All Rectangle Tests");
-
     return 0;
 }
